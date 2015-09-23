@@ -50,6 +50,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BlackJackCore\BlackJackCore.csproj">
+      <Project>{71c18257-4dac-4ae1-b9ad-e3a2e1ca5d1d}</Project>
+      <Name>BlackJackCore</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DeckOfCard\DeckOfCard.csproj">
       <Project>{291c755b-578c-4835-9096-2f31b7e788ea}</Project>
       <Name>DeckOfCard</Name>

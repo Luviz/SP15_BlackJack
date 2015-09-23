@@ -71,11 +71,17 @@ namespace DeckOfCard {
 				tmp.RemoveAt(index);				// damn u MS all you had to just is return the GOD DAMN REMOVED ITEM is that hard!!!!!!!!
 			}
 		}
-
+		/// <summary>
+		/// pops out a card form the stack
+		/// </summary>
+		/// <returns>Card</returns>
 		public Card Pop() {
 			return _deck.Pop();
 		}
-
+		/// <summary>
+		/// peeks the next card
+		/// </summary>
+		/// <returns>Card</returns>
 		public Card Peek() {
 			return _deck.Peek();
 		}

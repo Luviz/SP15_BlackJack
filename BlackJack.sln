@@ -8,6 +8,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{95C6E97E-0F71-4B88-86D7-06E102715B10}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackJack_CA", "BlackJack_CA\BlackJack_CA.csproj", "{999681DD-FF56-4A85-921D-D84FA2CD7483}"
+	ProjectSection(ProjectDependencies) = postProject
+		{71C18257-4DAC-4AE1-B9AD-E3A2E1CA5D1D} = {71C18257-4DAC-4AE1-B9AD-E3A2E1CA5D1D}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackJackCore", "BlackJackCore\BlackJackCore.csproj", "{71C18257-4DAC-4AE1-B9AD-E3A2E1CA5D1D}"
 EndProject

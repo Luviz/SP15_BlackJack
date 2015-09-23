@@ -8,10 +8,11 @@ namespace DeckOfCard {
 	public class Card : IComparable<Card> {
 		public enum Suit { CLUBS = '♣', SPADES = '♠' , HEARTS = '♥', DIAMONDS = '♦'};
 		public static readonly String[] Values = { "A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K" }; // Fuuuuuck u 10
-		public String [] s = { "♥", "♦", "♣", "♣" };
 
 		private Suit _Suit;
-		private String _Value;
+		private string _Value;
+
+		public int test { get; set; }
 
 		public Card(Suit s, String value) {
 			this._Suit = s;

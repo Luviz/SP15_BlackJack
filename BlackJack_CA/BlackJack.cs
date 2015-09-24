@@ -75,8 +75,10 @@ namespace BlackJack_CA {
 				char choice = Console.ReadKey().KeyChar;
 				if (choice == '1')
 					Hit();
-				else 
-					Hold(); 
+				else if (choice == '2')
+					Hold();
+				else
+					Update();
 			}
 			else {
 				//show win loss status
